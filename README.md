@@ -1,4 +1,4 @@
-### App for booking hotels.
+## App for booking hotels.
 
 Based on CRA.
 
