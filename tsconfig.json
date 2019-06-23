@@ -6,7 +6,11 @@
     "resolveJsonModule": true,
     "noEmit": true,
     "target": "es5",
-    "lib": ["es6", "dom", "es2017"],
+    "lib": [
+      "es6",
+      "dom",
+      "es2017"
+    ],
     "sourceMap": true,
     "allowJs": true,
     "jsx": "preserve",
@@ -27,6 +31,12 @@
     "strict": true,
     "isolatedModules": true
   },
-  "include": ["declarations.d.ts", "src"],
-  "exclude": ["src/__tests__", "src/mock-generator"]
+  "include": [
+    "declarations.d.ts",
+    "src"
+  ],
+  "exclude": [
+    "src/__tests__",
+    "src/mock-generator"
+  ]
 }
