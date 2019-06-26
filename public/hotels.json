@@ -1,26 +1,482 @@
 [
   {
-    "id": 5,
-    "name": "Hotel 5"
+    "id": "daa79612-6286-4411-8f56-5d64731b02dc",
+    "name": "Vier Jahreszeiten Kempinski München",
+    "stars": 5,
+    "city": "Munich",
+    "description": "An elegant spa with pool and panoramic city views are featured at this 5-star hotel. It is centrally located in Munich, a 5-minute walk from Marienplatz Square.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/133069836.jpg?k=5b81f33126b999fd0f719560e2eee7a228f8a16221fec63ee0a645d64b5497e9&o="
   },
   {
-    "id": 4,
-    "name": "Hotel 4"
+    "id": "d5eed2d6-78d5-423c-8b47-45e5f417da1f",
+    "name": "H2 Hotel München Olympiapark",
+    "stars": 3,
+    "city": "Munich",
+    "description": "Located in Munich, 1.1 mi from BMW Welt, H2 Hotel München Olympiapark offers rooms with air conditioning and free WiFi.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/170631195.jpg?k=89ea7f9dae92a0b46035f2c65dd56727c909f1b5916bbd94ca40375206d35c41&o="
   },
   {
-    "id": 3,
-    "name": "Hotel 3"
+    "id": "adad72a4-6b96-46b6-9dc1-5228b6c3bdd2",
+    "name": "Bayerischer Hof",
+    "stars": 5,
+    "city": "Munich",
+    "description": "Offering 5 gourmet restaurants, 6 bars, and an exclusive spa with rooftop pool, this historic 5-star hotel is located directly in Munich’s fashionable shopping district.",
+    "imagePreview": "https://r-cf.bstatic.com/xdata/images/hotel/square200/112525939.jpg?k=ce9e66bb7b9e705f364011dce96a49d5b8c009d266dcea9a6c731aa5ec532bb6&o="
   },
   {
-    "id": 2,
-    "name": "Hotel 2"
+    "id": "fd51ae4f-a223-4f93-8f2f-6a3ec66f2c62",
+    "name": "CORTIINA Hotel",
+    "stars": 4,
+    "city": "Munich",
+    "description": "This elegant hotel in central Munich offers rooms with specially designed furniture and flat-screen TVs and a stylish wine bar. The famous Marienplatz square is a 5-minute walk away.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/71129542.jpg?k=ad4aa2dc2ef594fb1038042b76718059dbe85f8511e2051bb3dfb629135dbd17&o="
   },
   {
-    "id": 1,
-    "name": "Hotel 1"
+    "id": "a7acdfda-f7ed-4ecc-9538-421540266e37",
+    "name": "Sofitel Munich Bayerpost",
+    "stars": 5,
+    "city": "Munich",
+    "description": "Extensively renovated in 2017, this 5-star hotel is an historic building offering modern interior design and free Wi-Fi, just 328 feet from Munich Main Station.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/97517267.jpg?k=c66bc131b8de8726bbf310d76d8d600fc52616a460932c13950a4c7093927384&o="
   },
   {
-    "id": 6,
-    "name": "Hotel 6"
+    "id": "aad8d9fe-765a-4bfd-86b5-f1146a420dfd",
+    "name": "Platzl Hotel - Superior",
+    "stars": 4,
+    "city": "Munich",
+    "description": "A 2-minute walk from the Marienplatz Square and the Hofbräuhaus Brewery, this hotel in the center of Munich features a free spa, a 16th-century restaurant, and soundproof rooms with flat-screen TVs.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/31168084.jpg?k=ccc11d9089219a7b128b8bbed88ab11632ee85eca071a7946a5662aac3b3bc02&o="
+  },
+  {
+    "id": "5e249e60-e30d-4a3e-993d-730c89a9deb7",
+    "name": "Holiday Inn Express Munich City West",
+    "stars": 3,
+    "city": "Munich",
+    "description": "Holiday Inn Express Munich City West is located in Munich, 0.9 mi from Nymphenburg Palace and 1.9 mi from Oktoberfest - Theresienwiese. Guests can enjoy the on-site bar.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/83213296.jpg?k=cc227cf9cc1a79105f44a859dfd1ce436a1b0b5c388b261afc68b64827845769&o="
+  },
+  {
+    "id": "8143f139-5183-4351-a179-d63905eee071",
+    "name": "Rocco Forte The Charles Hotel",
+    "stars": 5,
+    "city": "Munich",
+    "description": "Overlooking the Old Botanical Garden, this 5-star design hotel in Munich offers an exclusive spa with indoor pool, soundproofed rooms with free Wi-Fi, and an elegant Neo Bistro with terrace and bar.",
+    "imagePreview": "https://r-cf.bstatic.com/xdata/images/hotel/square200/76390538.jpg?k=81056f85716089c26fc28ed17a60fc7e82348e82f93be042b80b83f4053d06db&o="
+  },
+  {
+    "id": "751732b1-e7ad-4db8-a361-a100931c4d3a",
+    "name": "Hampton By Hilton Munich City West",
+    "stars": 3,
+    "city": "Munich",
+    "description": "Featuring a fitness center, bar, shared lounge and free WiFi, Hampton By Hilton Munich City West is located in Munich, 1.6 miles from Theresienwiese and 1.9 miles from Karlsplatz (Stachus).",
+    "imagePreview": "https://r-cf.bstatic.com/xdata/images/hotel/square200/153938966.jpg?k=3af29e79f0e45f8230db9a05c9bcdcb0db71c89e08c624799b70c5537bc98811&o="
+  },
+  {
+    "id": "46594068-4889-4ab5-aa6b-7a3ffe83e95f",
+    "name": "Roomers Munich, Autograph Collection",
+    "stars": 5,
+    "city": "Munich",
+    "description": "Set in Munich, a 16-minute walk from Oktoberfest - Theresienwiese, Roomers Munich, Autograph Collection features free WiFi.",
+    "imagePreview": "https://r-cf.bstatic.com/xdata/images/hotel/square200/179884518.jpg?k=118d7fde558abc1585ff72120daefe74e2fa3dff51c95ffa4f0cbf088afe454d&o="
+  },
+  {
+    "id": "71a4fb55-7013-488c-9ae7-28d0ce0d7894",
+    "name": "Super 8 by Wyndham Munich City North",
+    "stars": 3,
+    "city": "Munich",
+    "description": "Featuring simple and contemporary design, Super 8 Munich City North is located just north of Munich's city center. Enjoy free WiFi access in all areas as well as the stylish bar and a sun terrace.",
+    "imagePreview": "https://r-cf.bstatic.com/xdata/images/hotel/square200/70789946.jpg?k=88b9d9c30737a367b951aa1d36026719fd7a12e76773127a95763cd5aa7af280&o="
+  },
+  {
+    "id": "8600d10e-0a7d-4cc0-9c8e-1b3afc8fb33b",
+    "name": "Hilton Munich Park",
+    "stars": 4,
+    "city": "Munich",
+    "description": "This elegant hotel in Munich lies beside the English Garden, a 14-minute tram ride from Marienplatz. It offers stylish rooms and a modern center with indoor pool.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/18242054.jpg?k=4c1598bc28e4b4f13c9a77103bab7ac168376eba68d59cd7e47a28d07ac380dd&o="
+  },
+  {
+    "id": "600a76e2-a9de-4e26-afd1-192438545ba7",
+    "name": "LetoMotel München City Nord",
+    "stars": 3,
+    "city": "Munich",
+    "description": "Offering free WiFi access and a 24-hour reception, LetoMotel München City Nord is located in the northern part of Munich, just 1-minute walk away from the Olympic Shopping Center.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/82371979.jpg?k=f82116522251b9fbf482911e588566932dad7eb70f7e15d44e1a9b86c95e11e1&o="
+  },
+  {
+    "id": "88c09307-cfad-4fca-b11d-d3460bacda61",
+    "name": "NYX Hotel Munich by Leonardo Hotels",
+    "stars": 4,
+    "city": "Munich",
+    "description": "Located in Munich, 2.2 mi from Oktoberfest - Theresienwiese, NYX Hotel Munich by Leonardo Hotels offers a fitness center, sauna and terrace.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/153763107.jpg?k=ea5f895c8b1a0422e34bfd881048afce200111761c29bb387197172cd08159a8&o="
+  },
+  {
+    "id": "9b9fc495-a7dd-44ee-8c44-f3d37e596e88",
+    "name": "Leonardo Royal Hotel Munich",
+    "stars": 4,
+    "city": "Munich",
+    "description": "Located beside the Olympiapark Park in Munich, this 4-star superior hotel offers free WiFi, a sauna area and fitness facilities, an international restaurant with large terrace, and easy underground...",
+    "imagePreview": "https://r-cf.bstatic.com/xdata/images/hotel/square200/81740881.jpg?k=210082e8caf016012b5fc5963129772e59cb2e764679652a0f4eb36a6bc84cd5&o="
+  },
+  {
+    "id": "01acdf3d-1e7f-4b46-bfa6-a653308744e2",
+    "name": "Hotel Torbräu",
+    "stars": 4,
+    "city": "Munich",
+    "description": "This historic, 4-star hotel in central Munich offers rooms with free Wi-Fi, and a rich breakfast buffet every day. Marienplatz Square is just a 5-minute walk away.",
+    "imagePreview": "https://r-cf.bstatic.com/xdata/images/hotel/square200/191544337.jpg?k=cb0eca1985d68bcc5dac53f47f2d7e50b43b39ba4cf76e0505a6c22b384f4681&o="
+  },
+  {
+    "id": "99f0609e-958e-4d53-b13a-2bdc1004c307",
+    "name": "Britannia International Hotel Canary Wharf",
+    "stars": 4,
+    "city": "London",
+    "description": "Britannia International Hotel Canary Wharf has spacious rooms and limited free WiFi access in bedrooms, just 600 metres from Canary Wharf Underground Station.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/50756453.webp?k=18558635c66b534dabc514ace7a15f69c7c363dc79acb6d3c206bc7e4004f20b&o="
+  },
+  {
+    "id": "798a6f79-5a7f-44f1-bc65-b6c9ceec652a",
+    "name": "Beautiful Notting Hill Garden Apartment",
+    "stars": 0,
+    "city": "London",
+    "description": "In the Kensington and Chelsea district of London, close to Portobello Road Market, Beautiful Notting Hill Garden Apartment has a garden, free WiFi and a washing machine.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/160912372.webp?k=7d01c7e9e7ae745b8559a00258c4b8139d8366680b59a5def3b7a8345b294c3e&o="
+  },
+  {
+    "id": "d19a6329-1fca-4b7c-9ac3-8fb32486f686",
+    "name": "Hashtag Barbican Campus Accommodation",
+    "stars": 3,
+    "city": "London",
+    "description": "Ideally located in the Islington district of London, Hashtag Barbican Campus Accommodation is located a 16-minute walk from St Paul's Cathedral, 1.3 miles from Sky Garden and 1.4 miles from Somerset...",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/202156843.webp?k=e2a4a32d11965054316c394d3addb7a2d45bf0dc283f9534de29b4ce7a2b6ea8&o="
+  },
+  {
+    "id": "244cb9cd-cff3-4444-b4ab-94801cb48252",
+    "name": "Hashtag Bankside Campus Accommodation",
+    "stars": 0,
+    "city": "London",
+    "description": "Featuring free WiFi, Hashtag Bankside Campus Accommodations located in London, 0.9 mi from Tower of London and London Eye.",
+    "imagePreview": "https://r-cf.bstatic.com/xdata/images/hotel/square200/203762859.webp?k=28095a65bec82e27a10525407c5d70557ddc8934d1264807822acab50b105ead&o="
+  },
+  {
+    "id": "15870aba-2d64-4d2c-bc9c-3a0bee9fae74",
+    "name": "Boutique 2 Bed in Notting Hill, Westbourne Park",
+    "stars": 0,
+    "city": "London",
+    "description": "Located in London, an 11-minute walk from Portobello Road Market, Boutique 2 Bed in Notting Hill, Westbourne Park provides a living room with a flat-screen TV.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/196032475.webp?k=0e7847b291186ccde8b9f966ea506f23fae3222460dac1ee46604c96ff872ba4&o="
+  },
+  {
+    "id": "da5ed81c-58cf-4337-8df7-0fb14edfbb06",
+    "name": "Awesome flat near Chelsea Stadium + Fulham station",
+    "stars": 0,
+    "city": "London",
+    "description": "Featuring city views, Awesome flat near Chelsea Stadium + Fulham station has accommodations with a balcony and an electric tea pot, around a 15-minute walk from Stamford Bridge Stadium.",
+    "imagePreview": "https://r-cf.bstatic.com/xdata/images/hotel/square200/202510535.webp?k=e16364f2ba581b09698faf6574968185345027c7dc7bbeff69ed8cbe7925fbb8&o="
+  },
+  {
+    "id": "b8d5b272-3310-4deb-aa8a-62cd88fa447e",
+    "name": "Moreton Street Penthouse",
+    "stars": 0,
+    "city": "London",
+    "description": "In the Westminster Borough district of London, close to Westminster Abbey, Moreton Street Penthouse features free WiFi and a washing machine.",
+    "imagePreview": "https://r-cf.bstatic.com/xdata/images/hotel/square200/88444049.webp?k=7839536f5816da4812b3facd204de48b4eb3abed60a2b2e6ce5f379d418eb7d4&o="
+  },
+  {
+    "id": "587e52b0-32b2-4036-9126-5c37d8d6df67",
+    "name": "Princes Gardens",
+    "stars": 4,
+    "city": "London",
+    "description": "Located in South Kensington, Princes Gardens is one of Imperial College London student halls of residence open to the public as bed and breakfast accommodations during the summer.",
+    "imagePreview": "https://r-cf.bstatic.com/xdata/images/hotel/square200/118742769.webp?k=63728e7fb390faea96cdafe8a8fc7e9956b69b7a4be60e03cde9ea51b3755036&o="
+  },
+  {
+    "id": "09389684-bbd3-4a18-aa21-44188dc9fd95",
+    "name": "Flat2C The former fire station",
+    "stars": 0,
+    "city": "London",
+    "description": "Located in London, a 7-minute walk from Eventim Apollo and 0.7 miles from Olympia Exhibition Centre, Flat2C The former fire station has accommodations with free WiFi and restaurant.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/111169396.webp?k=80125a0b3c42d72718536fcd3b65692d44440d794d423e60c7d95a2885c479dd&o="
+  },
+  {
+    "id": "ccc46dc8-6bc6-4002-9126-dd64317d3672",
+    "name": "Apartment Gibson Road",
+    "stars": 0,
+    "city": "London",
+    "description": "Located in London, a 17-minute walk from Houses of Parliament, one mile from London Eye and 1.1 miles from Westminster Abbey, Apartment Gibson Road has accommodations with a balcony and free WiFi.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/61781416.webp?k=c2594a2cdd2c2aed70e284f8f3b0c6e415de2c62907cf7957421e085827eb2cd&o="
+  },
+  {
+    "id": "73a61ce3-924c-4be6-8be7-b823a4c39e4f",
+    "name": "Kings Cross Hotel",
+    "stars": 2,
+    "city": "London",
+    "description": "Centrally located in London, Kings Cross Hotel offers rooms with TV and features free WiFi throughout and a 24-hour front desk service.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/118556519.webp?k=b029535de1bdb30ff402711999f995dccee7203caa9c04589d40472bcdc05423&o="
+  },
+  {
+    "id": "dea1f528-d7ea-4147-8e92-b1d897f5a788",
+    "name": "Luxury Apartment",
+    "stars": 0,
+    "city": "London",
+    "description": "In the Lambeth district of London, close to Houses of Parliament, Luxury Apartment has free WiFi and a washing machine. With river views, this property has a balcony.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/172320429.webp?k=19ef812f327b7a87c6a2a5b7f6adc22b3b445ae844c305a2c54b40798569c6df&o="
+  },
+  {
+    "id": "72af2f20-8149-413c-b4a0-ac20d0a24a06",
+    "name": "Collingham Place - Welcome at Home",
+    "stars": 0,
+    "city": "London",
+    "description": "Collingham Place - Welcome at Home in London provides accommodations with free WiFi, a 13-minute walk from Natural History Museum London, 0.9 miles from Victoria and Albert Museum and a 19-minute walk...",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/172596947.webp?k=2bacb7a13ced3c1d379045b42ec07221bb5095fbdbfbb61e8c4a9a75043ee986&o="
+  },
+  {
+    "id": "d000c65e-53cd-4ff2-ad56-610c0ac9cffd",
+    "name": "London Eye Suites",
+    "stars": 0,
+    "city": "London",
+    "description": "In the Lambeth district of London, close to Houses of Parliament, London Eye Suites features free WiFi and a washing machine. Guests staying at this apartment can use the balcony.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/187701539.webp?k=3f2f8beb72ce977b5cd023617c972f06221860dbcf41942af38f3e39c980b84b&o="
+  },
+  {
+    "id": "050351e7-70b1-4bbc-b3e9-0dd7b0e2b7a4",
+    "name": "Meriton Suites Kent Street",
+    "stars": 4.5,
+    "city": "Sydney",
+    "description": "Offering modern luxury apartments in the heart of Sydney CBD (Central Business District), Meriton Suites Kent Street boasts an indoor swimming pool, a fitness centre, sauna and hot tub.",
+    "imagePreview": "https://r-cf.bstatic.com/xdata/images/hotel/square200/187380233.webp?k=e7b7689e9c272e940fd7d6029c12b9a23094a37709e104edf468a76fd1a34e1a&o="
+  },
+  {
+    "id": "335832d5-1c66-4f68-ae3b-e4be38279c9e",
+    "name": "Manly Beach Escape Apartment",
+    "stars": 3.5,
+    "city": "Sydney",
+    "description": "Manly Beach Escape Apartment in Sydney provides accommodations with free WiFi, 6 miles from Taronga Zoo, 8 miles from Luna Park Sydney and 9 miles from Circular Quay.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/203080011.webp?k=af917cd57a0422fd4fbd64e2f95689581c482169714866e931d9ff09c7b4c6e4&o="
+  },
+  {
+    "id": "58f8e0cc-461f-4690-9310-58b380a4ccaf",
+    "name": "High-rise Modern 2BR Apt at Olympic Park w/ Free Parking",
+    "stars": 0,
+    "city": "Sydney",
+    "description": "With garden views, High-rise Modern 2BR Apt at Olympic Park w/ Free Parking is located in Sydney and has a restaurant and a 24-hour front desk. Complimentary WiFi is offered.",
+    "imagePreview": "https://r-cf.bstatic.com/xdata/images/hotel/square200/198760274.webp?k=66b1b6a2a502ce2526187c754888000cebbc66aa12dc202fceb8f3d5a900ce7f&o="
+  },
+  {
+    "id": "abd3e984-8e56-41ed-b682-066865dc5e22",
+    "name": "Wyndel Apartments Chatswood - Bertram",
+    "stars": 4,
+    "city": "Sydney",
+    "description": "Located in the heart of Chatswood, Wyndel Apartments Bertram offers self-contained accommodations with a balcony and garden views. Each apartment offers cooking facilities and an outdoor dining area.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/24437266.webp?k=789ee3c1b4f69a9a3c39517f844c0c9f28e7202f6e37bea970fb30c3e4d2dc0e&o="
+  },
+  {
+    "id": "1bb400f8-8b83-4a89-92e0-4c3b5d3880e7",
+    "name": "Wyndel Apartments Sydney CBD - Bond",
+    "stars": 4,
+    "city": "Sydney",
+    "description": "Boasting a fitness center, a rooftop pool and a spa pool, Wyndel Apartments - Bond Street is 5 minutes’ walk from Wynyard Station in Sydney CBD (Central Business District).",
+    "imagePreview": "https://r-cf.bstatic.com/xdata/images/hotel/square200/25707129.webp?k=b753c82b9023395ffa3a0279b58cb3d27d57bb813b2b253f8e93450780dd9ff2&o="
+  },
+  {
+    "id": "fcc1c9da-f431-40c2-8fd5-709cd01eb052",
+    "name": "Sydney Olympic Park 2BR City View High Level Apt *Free Parking*",
+    "stars": 0,
+    "city": "Sydney",
+    "description": "Located in Sydney, a 9-minute walk from Sydney Showground and 0.7 miles from ANZ Stadium, Sydney Olympic Park 2BR City View High Level Apt *Free Parking* offers free WiFi and air conditioning.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/199384423.webp?k=9f9d24d2f9a2479ee198771e25d21442a8542cdfa722317f7ee4dc6b15c337cb&o="
+  },
+  {
+    "id": "00d9d2fe-4091-4c2f-b1bd-0d1e85a8c093",
+    "name": "Wyndel Apartments - Apex North Sydney",
+    "stars": 3,
+    "city": "Sydney",
+    "description": "Wyndel Apartments - Apex North Sydney is just 6 minutes' walk from North Sydney Station, with a quick 7-minute commute to Wynyard Train station.",
+    "imagePreview": "https://r-cf.bstatic.com/xdata/images/hotel/square200/158304357.webp?k=0500f793c6ab5d7aa9b0a38b35cc3ced72680036180b6576b09d21f3a8b00894&o="
+  },
+  {
+    "id": "5b22ebc9-b0b8-4b06-adb0-566c3c865398",
+    "name": "Meriton Suites Carter Street",
+    "stars": 5,
+    "city": "Sydney",
+    "description": "Located just outside of Sydney Olympic Park and within a 10-minute walk of both ANZ Stadium and Qudos Bank Arena, guests staying at Meriton Suites Carter Street will find it easy to attend concerts...",
+    "imagePreview": "https://r-cf.bstatic.com/xdata/images/hotel/square200/175967470.webp?k=0f515e19177cc84289fabc636fe154f989ceb18d70da936d5381dc018c136ddc&o="
+  },
+  {
+    "id": "c134d00d-12db-4d78-b28f-bd64d12e9251",
+    "name": "Rydges Sydney Airport Hotel",
+    "stars": 4.5,
+    "city": "Sydney",
+    "description": "Located opposite Sydney International Airport, Rydges Sydney Airport features free transfers for all guests, to and from the domestic and international Sydney Airport terminals.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/126135199.webp?k=90e601a552f9acaacbeee94043e063e034b7a921f93129e6b2b89dedb5dfe387&o="
+  },
+  {
+    "id": "9c51afd0-9eac-4d7c-9c44-4683ef7909bd",
+    "name": "Rydges World Square",
+    "stars": 4.5,
+    "city": "Sydney",
+    "description": "Perfectly located in the heart of Sydney CBD (Central Business District), Rydges World Square offers luxury accommodations with a flat-screen TV.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/141949318.webp?k=7bbf1877158c4453de1df9792a0ee035615fa4130d07544e430ce91ba317ef21&o="
+  },
+  {
+    "id": "6ddf1c5c-0b7e-4d1f-9d20-db0d1d177af1",
+    "name": "Veriu Green Square",
+    "stars": 4,
+    "city": "Sydney",
+    "description": "Formerly the site of a luxury European auto-trader in the 1970's, Veriu Green Square offers accommodations in Sydney.",
+    "imagePreview": "https://r-cf.bstatic.com/xdata/images/hotel/square200/188897021.webp?k=7a18e79b1a34aa9e79b4362a129ece5445ddd0ff554ffdc5ce10602c5c2747e7&o="
+  },
+  {
+    "id": "6d34c69f-f034-42a5-988c-b60e5c3638e0",
+    "name": "Meriton Suites Coward Street, Mascot",
+    "stars": 5,
+    "city": "Sydney",
+    "description": "Meriton Suites Coward Street, Mascot (formerly Meriton Suites Sydney Airport) is a newly developed luxury hotel positioned only 10 minutes' drive from the domestic airport and 15 minutes' drive from...",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/141968649.webp?k=34f7ef78c76f55ce9ffcf76ff06d627bc04332f6a6b3b3d71ec0646097a48716&o="
+  },
+  {
+    "id": "4bab91ce-2155-45d0-8e46-6af147af3e25",
+    "name": "Astoria Space Pop up",
+    "stars": 3,
+    "city": "Sydney",
+    "description": "Located in Sydney, Astoria Space Pop up has air-conditioned rooms with free WiFi.",
+    "imagePreview": "https://r-cf.bstatic.com/xdata/images/hotel/square200/140166948.webp?k=2fd4d900808bbb978027193c0fe97e34129d23f64b1e110b70ac6bfba5ca59a8&o="
+  },
+  {
+    "id": "2713194a-2e32-4598-b103-8406113aa7d5",
+    "name": "ibis budget Sydney Airport",
+    "stars": 3,
+    "city": "Sydney",
+    "description": "Ibis budget Sydney Airport is located just 10 minutes’ walk from the domestic terminal and railway station, and a 10-minute drive from the international terminal.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/109029542.webp?k=85f8d91770790f0c4fc8d8edfbc769199ea3ebb33d4bd01a07ee3cdb7c67078a&o="
+  },
+  {
+    "id": "bcca455a-3fd9-4a34-8273-142460983b68",
+    "name": "Holiday Inn Darling Harbour",
+    "stars": 4,
+    "city": "Sydney",
+    "description": "Located in the heart of the popular Darling Harbor entertainment district, Holiday Inn is ideally located for sightseeing, nightlife and shopping.",
+    "imagePreview": "https://r-cf.bstatic.com/xdata/images/hotel/square200/174616446.webp?k=ebcb10409be88ddbf31e5dbd1f2d7b092f334793f14d50e65fdd54c4d487c5df&o="
+  },
+  {
+    "id": "3ecd5e1f-c1de-425f-9192-56291cf60b6f",
+    "name": "Hotel Pennsylvania",
+    "stars": 2,
+    "city": "New York",
+    "description": "This Manhattan hotel is located across the street from Madison Square Garden and Penn Station.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/57772519.webp?k=99aea26a10d4489129aedf4fca8dd6f6e444cf8511c36ce96de1e9bf980d3e0e&o="
+  },
+  {
+    "id": "0d6bdf11-caed-4531-b0ae-749a8be8ec52",
+    "name": "WeLive Wall Street",
+    "stars": 0,
+    "city": "New York",
+    "description": "Located in New York, a 20-minute walk from National September 11 Memorial & Museum and 1.2 miles from One World Trade Center, WeLive Wall Street provides accommodations with free WiFi, air...",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/180897237.webp?k=c821a8c3ee2448fb2c67955afaab58bd282fba5e1d528fa0ce5081aee51b2ea5&o="
+  },
+  {
+    "id": "bf499156-b68d-4663-84fb-1aaacd2eaac7",
+    "name": "Martinique New York on Broadway, Curio Collection by Hilton",
+    "stars": 4,
+    "city": "New York",
+    "description": "This Beaux-Arts hotel with a French Renaissance design has a restaurant/bar and enjoys a central Manhattan location.",
+    "imagePreview": "https://r-cf.bstatic.com/xdata/images/hotel/square200/180071428.webp?k=4df39feed13dbfb2f70f85b708620aef34277a0963291396f4758d60f1e017be&o="
+  },
+  {
+    "id": "4102003b-96c7-4933-8ce9-ed7bdacca6fb",
+    "name": "Leo House",
+    "stars": 3,
+    "city": "New York",
+    "description": "Located less than 0.6 mi from Penn Station, this Manhattan hotel features a chapel and a dining room. Chelsea Market is 10 minutes’ walk. Free Wi-Fi is available throughout the property.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/27969147.webp?k=eeb21cde95e4989de1e1cebb7a6322f26b6a96763c10d2d0cca88c788ea41df0&o="
+  },
+  {
+    "id": "7ef07893-06a1-4e35-9884-189ee89d84eb",
+    "name": "Hotel Edison Times Square",
+    "stars": 3,
+    "city": "New York",
+    "description": "Ideally located in Times Square, this Manhattan hotel has been around since 1930.",
+    "imagePreview": "https://r-cf.bstatic.com/xdata/images/hotel/square200/194374370.webp?k=88463d1f1edd9f5f500ff58a76ab2a9a7432520f1fb1fa4edc035fac3f0d9b0b&o="
+  },
+  {
+    "id": "897aa26d-3b34-40e6-903c-3bd2ac3e785c",
+    "name": "The Roosevelt Hotel",
+    "stars": 4,
+    "city": "New York",
+    "description": "Known as the \"Grand Dame of Madison Avenue\", The Roosevelt Hotel opened during the Jazz Age and offers its guests accommodations with custom furnishings and warm, earthy tones.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/151426512.webp?k=bc224854e3d2221be08ce71eb817b7d41e4eaa5e516868c3d8a601bea6252325&o="
+  },
+  {
+    "id": "2b18fd2d-9ba7-4101-9edb-0b1c86085005",
+    "name": "The Standard, High Line New York",
+    "stars": 4,
+    "city": "New York",
+    "description": "Featuring a rooftop bar, The Standard, High Line New York is located in the trendy Meatpacking District, 29 metres from the High Line. Free WiFi access is offered.",
+    "imagePreview": "https://r-cf.bstatic.com/xdata/images/hotel/square200/59767031.webp?k=c0df0ea4ecbfc5130eaec6877e11343636677e01d3dc922725bbf1838fa61a47&o="
+  },
+  {
+    "id": "680f3847-1974-4a57-a128-9a1b8dce016c",
+    "name": "citizenM New York Times Square",
+    "stars": 4,
+    "city": "New York",
+    "description": "Located right in the heart of Manhattan, this hotel is just 1-minute walk from Times Square and within a 5-minute walk of Central Park and Columbus Circle.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/32637915.webp?k=74b2f85a108ac5b6777d7472f0ff30c597ec1f838bcceddcbfcb45e313239310&o="
+  },
+  {
+    "id": "0496f71c-1759-496e-a64b-29daf951291e",
+    "name": "Fairfield Inn & Suites by Marriott New York Manhattan/Times Square South",
+    "stars": 3,
+    "city": "New York",
+    "description": "Attractively located in the Hell's Kitchen district of New York, Fairfield Inn & Suites by Marriott New York Manhattan/Times Square South is located an 8-minute walk from Macy's, 0.6 miles from...",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/197652579.webp?k=2322075968b4904b2904fad038323d5bb1241b22fdf05ed9aa4bfec097e12bbb&o="
+  },
+  {
+    "id": "8d075dfb-e9d8-4a39-93de-38b8c719d2b6",
+    "name": "Cassa Hotel NY 45th Street",
+    "stars": 4,
+    "city": "New York",
+    "description": "This boutique hotel, located 1056 feet from Bryant Park and Times Square, offers complimentary coffee every morning in the lobby and a 24-hour fitness center.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/49240750.webp?k=adb58df3ed65f415c63e3647e928e5d50cfd4103c1cc4da7c3ae2b2658a1a6f9&o="
+  },
+  {
+    "id": "b2f5d3b7-090e-4e57-9894-50e653ec0549",
+    "name": "Oakwood Aurora Midtown East",
+    "stars": 2,
+    "city": "New York",
+    "description": "Offering accommodations with air conditioning, Oakwood Aurora Midtown East is located in New York, within walking distance from the Chrysler Building at 2133 feet. Empire State Building is 0.6 mi...",
+    "imagePreview": "https://r-cf.bstatic.com/xdata/images/hotel/square200/71446884.webp?k=72f78810b8e76f2c8afb7800908808d5a9f4a15ea598d8e64d84c1eb206cb14f&o="
+  },
+  {
+    "id": "7b47103e-634f-4014-9295-1f1b35c3cf5f",
+    "name": "Citadines Connect Fifth Avenue New York",
+    "stars": 3,
+    "city": "New York",
+    "description": "Close to popular New York City attractions, including the shops of Fifth Avenue, this Midtown Manhattan hotel offers cozy guestrooms and free WiFi access.",
+    "imagePreview": "https://r-cf.bstatic.com/xdata/images/hotel/square200/159884656.webp?k=8eba328be27e407d34ce530a3e2cccb6f7193d0ce94b94339c843d39aed93527&o="
+  },
+  {
+    "id": "4ebb15ae-4214-4983-acc3-666bdb5f6ab6",
+    "name": "Concorde Hotel New York",
+    "stars": 4,
+    "city": "New York",
+    "description": "Featuring a fitness center and free WiFi, Concorde Hotel New York is located in New York, 2461 feet from Museum of Modern Art and St Patrick's Cathedral.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/181011652.webp?k=422928eb3b2cc79d3c5a9835f2cf88b42e3f0a9b80f85dea154f7baa32f775ff&o="
+  },
+  {
+    "id": "38714f0c-60ee-4e0e-a746-4f161c9a6cb8",
+    "name": "Grand Hyatt New York",
+    "stars": 4,
+    "city": "New York",
+    "description": "Located adjacent to Grand Central Subway Station, this Manhattan hotel features onsite dining and the 24/7 StayFit fitness center. Rooms include a flat-screen TV and an iPod docking station.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/110317272.webp?k=b6bb0d90406945b71b08322ce5d692ae0b4722beba486ca210d80ca38b871ae0&o="
+  },
+  {
+    "id": "28d722e9-0ebd-420e-9b24-ce3693e92ca7",
+    "name": "The Watson Hotel",
+    "stars": 3,
+    "city": "New York",
+    "description": "Located in New York, 1969 feet from Lincoln Center, The Watson Hotel features a restaurant, bar and free WiFi throughout the property. The hotel has a seasonal outdoor pool and fitness center.",
+    "imagePreview": "https://q-cf.bstatic.com/xdata/images/hotel/square200/102715569.webp?k=59c38a9a919645440c3c701da2989ad1598e0c36840d8efec646036e42b727af&o="
   }
 ]

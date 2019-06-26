@@ -1,4 +1,8 @@
 export interface IHotel {
-  id: number;
+  id: string;
   name: string;
+  description: string;
+  stars: number;
+  imagePreview: string;
+  city: string;
 }
