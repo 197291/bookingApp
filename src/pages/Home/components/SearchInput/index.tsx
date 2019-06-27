@@ -21,8 +21,9 @@ const SearchInput: React.FC<Props> = (props) => {
           className={classes.input}
           placeholder="Search hotels"
           inputProps={{ 'aria-label': 'Search hotels' }}
-          onChange={(e) => setInputValue(e.target.value)}
+          onChange={(e) => setInputValue(e.target.value.trim().toLowerCase())}
           value={val}
+          type="search"
         />
         <IconButton
           onClick={() => props.setSearcValue(val)}
