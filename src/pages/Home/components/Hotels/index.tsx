@@ -12,9 +12,11 @@ const Hotels: React.FC<Props> = (props) => {
   return (
     <div className="Hotels">
       <Container>
-        {hotels.map((h) => (
-          <HotelRow key={h.id} hotel={h} />
-        ))}
+        <ul>
+          {hotels.map((h) => (
+            <HotelRow key={h.id} hotel={h} />
+          ))}
+        </ul>
       </Container>
     </div>
   );

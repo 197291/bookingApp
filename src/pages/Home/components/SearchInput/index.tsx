@@ -15,7 +15,7 @@ const SearchInput: React.FC<Props> = (props) => {
   const [val, setInputValue] = useState('');
 
   return (
-    <div className="SearchInput">
+    <div className={'SearchInput ' + classes.container}>
       <Paper className={classes.root}>
         <InputBase
           className={classes.input}

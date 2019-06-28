@@ -4,7 +4,8 @@ export const styles = makeStyles({
     padding: '2px 4px',
     display: 'flex',
     alignItems: 'center',
-    width: 400
+    maxWidth: 580,
+    width: '100%'
   },
   input: {
     marginLeft: 8,
@@ -17,5 +18,9 @@ export const styles = makeStyles({
     width: 1,
     height: 28,
     margin: 4
+  },
+  container: {
+    maxWidth: 580,
+    width: '100%'
   }
 });
