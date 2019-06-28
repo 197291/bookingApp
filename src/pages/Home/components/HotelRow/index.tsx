@@ -1,5 +1,6 @@
 import React from 'react';
 import ListItem from '@material-ui/core/ListItem';
+import { Link } from 'react-router-dom';
 
 import { IHotel } from 'interfaces/state/hotels';
 import { styles as st } from './style';
@@ -12,7 +13,7 @@ const HotelRow: React.FC<Props> = (props) => {
   const { hotel } = props;
   const styles = st(props);
   return (
-    <>
+    <Link to={`/hotels/${hotel.id}`}>
       <ListItem classes={{ root: styles.listItem }} divider={true}>
         <div className={styles.wrapPhoto}>
           <img
@@ -27,7 +28,7 @@ const HotelRow: React.FC<Props> = (props) => {
           <div>{hotel.description}</div>
         </div>
       </ListItem>
-    </>
+    </Link>
   );
 };
 
