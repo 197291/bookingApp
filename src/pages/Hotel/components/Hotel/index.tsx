@@ -5,6 +5,7 @@ import Paper from '@material-ui/core/Paper';
 
 import { IHotel } from 'interfaces/state/hotels';
 import { styles } from './styles';
+import DateRangePicker from '../DateRangePicker';
 
 interface Props {
   hotel: IHotel;
@@ -21,6 +22,7 @@ const Hotel: React.FC<Props> = (props) => {
               {hotel.name}
             </Typography>
           </div>
+          <DateRangePicker />
         </Paper>
       </Container>
     </div>

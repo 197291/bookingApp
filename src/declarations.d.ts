@@ -27,6 +27,9 @@ declare global {
   interface Window {
     ss: Store;
   }
+  interface Date {
+    addDays(n: number);
+  }
 }
 
 window.ss = window.ss || {};
