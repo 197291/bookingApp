@@ -11,7 +11,7 @@ const Home: React.FC<ConnectedProps> = (props) => {
   const classes = styles(props);
   useEffect(() => {
     getHotels();
-  }, []);
+  }, [getHotels]);
 
   return (
     <div className="Home">

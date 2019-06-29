@@ -27,7 +27,7 @@ const Slider: React.FC<Partial<Props>> = (props) => {
       <Carousel {...props}>
         {slides.map((url) => (
           <div key={url}>
-            <img src={url} />
+            <img alt="Room" src={url} />
           </div>
         ))}
       </Carousel>

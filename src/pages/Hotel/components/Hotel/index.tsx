@@ -7,6 +7,7 @@ import { IHotel } from 'interfaces/state/hotels';
 import { styles } from './styles';
 import DateRangePicker from '../DateRangePicker';
 import Slider from '../Slider';
+import Stars from 'common/components/Stars';
 
 interface Props {
   hotel: IHotel;
@@ -18,12 +19,13 @@ const Hotel: React.FC<Props> = (props) => {
     <div className={'Hotel ' + classes.root}>
       <Container>
         <Paper>
-          <Slider showIndicators={false} infiniteLoop={true} />
           <div className={classes.wrapTitleHotel}>
             <Typography classes={{ h3: classes.titleHotel }} variant="h3">
               {hotel.name}
+              <Stars stars={hotel.stars} />
             </Typography>
           </div>
+          <Slider showIndicators={false} infiniteLoop={true} />
           <DateRangePicker />
         </Paper>
       </Container>
