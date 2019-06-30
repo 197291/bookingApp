@@ -10,6 +10,7 @@ import Slider from '../Slider';
 import Stars from 'common/components/Stars';
 import FormBooking from 'common/components/FormBooking';
 import { withRouter, RouteComponentProps } from 'react-router';
+import { text } from './text';
 
 interface Props extends RouteComponentProps {
   hotel: IHotel;
@@ -30,12 +31,21 @@ const Hotel: React.FC<Props> = (props) => {
       <Container>
         <Paper>
           <div className={classes.wrapTitleHotel}>
-            <Typography classes={{ h3: classes.titleHotel }} variant="h3">
+            <Typography classes={{ h2: classes.titleHotel }} variant="h2">
               {hotel.name}
-              <Stars stars={hotel.stars} />
             </Typography>
+            <Stars stars={hotel.stars} />
           </div>
+
+          <hr />
+          <Typography gutterBottom={true} classes={{ h3: classes.city }} variant="h3">
+            City: {hotel.city || 'Beatiful place'}
+          </Typography>
           <Slider showIndicators={false} infiniteLoop={true} />
+          <Typography gutterBottom={true} classes={{ body1: classes.description }} variant="body1">
+            <strong>Description:</strong> {hotel.description + text}
+          </Typography>
+          <hr />
           <FormBooking handleSubmit={handleSubmit} handleSuccessSubmit={handleSuccessSubmit} />
         </Paper>
       </Container>

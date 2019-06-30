@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import DatePicker from 'react-datepicker';
+import { TextField } from '@material-ui/core';
 import 'react-datepicker/dist/react-datepicker.css';
 
+import { styles } from './styles';
 interface Props {
   setDate?: (date: IDateRangePicker) => void;
 }
@@ -25,6 +27,8 @@ const DateRangePicker: React.FC<Props> = (props) => {
   const [startDate, setStartDate] = useState(today);
   const [endDate, setEndDate] = useState(startDate);
 
+  const classes = styles(props);
+
   const handleStartDate = (date) => {
     setStartDate(date);
     const start = new Date(date).getTime();
@@ -34,23 +38,49 @@ const DateRangePicker: React.FC<Props> = (props) => {
     }
   };
   return (
-    <div className="DateRangePicker">
-      <DatePicker
-        selected={startDate}
-        selectsStart
-        startDate={startDate}
-        endDate={endDate}
-        onChange={handleStartDate}
-        minDate={today}
-      />
-      <DatePicker
-        selected={endDate}
-        selectsEnd
-        startDate={startDate}
-        endDate={endDate}
-        onChange={setEndDate}
-        minDate={startDate}
-      />
+    <div className={'DateRangePicker ' + classes.root}>
+      <div className={classes.dateRange}>
+        <DatePicker
+          customInput={
+            <TextField
+              required
+              InputProps={{
+                readOnly: true
+              }}
+              label="Check In date"
+              classes={{ root: classes.w100 }}
+              type="text"
+            />
+          }
+          selected={startDate}
+          selectsStart
+          startDate={startDate}
+          endDate={endDate}
+          onChange={handleStartDate}
+          minDate={today}
+        />
+      </div>
+      <div className={classes.dateRange}>
+        <DatePicker
+          customInput={
+            <TextField
+              required
+              InputProps={{
+                readOnly: true
+              }}
+              label="Check Out date"
+              classes={{ root: classes.w100 }}
+              type="text"
+            />
+          }
+          selected={endDate}
+          selectsEnd
+          startDate={startDate}
+          endDate={endDate}
+          onChange={setEndDate}
+          minDate={startDate}
+        />
+      </div>
     </div>
   );
 };

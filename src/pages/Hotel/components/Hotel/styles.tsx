@@ -7,9 +7,20 @@ export const styles = makeStyles({
     padding: '30px 0'
   },
   wrapTitleHotel: {
-    display: 'flex'
+    display: 'flex',
+    alignItems: 'center',
+    padding: 10
   },
   titleHotel: {
-    fontSize: '24px'
+    fontSize: 24,
+    marginRight: 20
+  },
+  city: {
+    padding: 10,
+    fontSize: 18
+  },
+  description: {
+    fontSize: 14,
+    padding: 10
   }
 });

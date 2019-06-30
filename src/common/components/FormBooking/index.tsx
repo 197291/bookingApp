@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import Button from '@material-ui/core/Button';
+import Typography from '@material-ui/core/Typography';
+import { TextField } from '@material-ui/core';
 
 import { styles } from './styles';
 import DateRangePicker, { IDateRangePicker } from 'pages/Hotel/components/DateRangePicker';
 import { IFormBooking } from 'interfaces/state/form';
 import Modal from 'common/components/Modal';
-import { TextField } from '@material-ui/core';
 
 interface Props {
   handleSubmit(data: IFormBooking);
@@ -18,19 +19,37 @@ const FormBooking: React.FC<Props> = (props) => {
   const [firstname, setFirstName] = useState('');
   const [lastname, setLastName] = useState('');
   const [guests, setNumberGuests] = useState<string>('1');
+  const [openTips, toggleTips] = useState(false);
   const [dateRange, setDateRange] = useState<IDateRangePicker>({
     startDate: new Date(),
     endDate: new Date()
   });
 
+  const isInvalid = () => {
+    return (
+      !firstname.trim() || !lastname.trim() || !guests || !dateRange.startDate || !dateRange.endDate
+    );
+  };
+
+  const toggleShowError = () => {
+    toggleTips(true);
+    setTimeout(() => {
+      toggleTips(false);
+    }, 3000);
+  };
+
   const handleSubmit = () => {
-    setVisibility(true);
-    props.handleSubmit({
-      firstname,
-      lastname,
-      guests,
-      ...dateRange
-    });
+    if (!isInvalid()) {
+      setVisibility(true);
+      props.handleSubmit({
+        firstname,
+        lastname,
+        guests,
+        ...dateRange
+      });
+    } else {
+      toggleShowError();
+    }
   };
 
   const handleClose = () => {
@@ -42,10 +61,15 @@ const FormBooking: React.FC<Props> = (props) => {
 
   const validNumber = (val: string) => (val.startsWith('0') || +val < 1 || !val ? '1' : val);
   return (
-    <div className={'FormBooking ' + classes.root}>
+    <form
+      name="form-booking"
+      onSubmit={(e) => e.preventDefault()}
+      className={'FormBooking ' + classes.root}
+    >
+      <h3 style={{ fontSize: 18 }}>Book your hotel!</h3>
       <DateRangePicker setDate={setDateRange} />
       <TextField
-        label="Type Firstname"
+        label="Firstname"
         helperText="Required*"
         margin="normal"
         variant="outlined"
@@ -54,7 +78,7 @@ const FormBooking: React.FC<Props> = (props) => {
         onChange={(e) => setFirstName(e.target.value.trim())}
       />
       <TextField
-        label="Type Lastname"
+        label="Lastname"
         helperText="Required*"
         margin="normal"
         variant="outlined"
@@ -83,8 +107,11 @@ const FormBooking: React.FC<Props> = (props) => {
       >
         Submit
       </Button>
+      {openTips && (
+        <Typography classes={{ root: classes.error }}>Please, fill all fields</Typography>
+      )}
       <Modal handleClose={handleClose} isOpen={isOpen} />
-    </div>
+    </form>
   );
 };
 

@@ -7,7 +7,8 @@ export const styles = makeStyles({
     maxWidth: 600,
     width: '100%',
     margin: 'auto',
-    alignItems: 'center'
+    alignItems: 'center',
+    position: 'relative'
   },
   btn: {
     width: 120,
@@ -15,5 +16,12 @@ export const styles = makeStyles({
   },
   input: {
     width: '100%'
+  },
+  error: {
+    color: 'red',
+    position: 'absolute',
+    bottom: 0,
+    left: '50%',
+    transform: 'translateX(-50%)'
   }
 });
