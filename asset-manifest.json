@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.de7223b8.chunk.css",
-    "main.js": "/static/js/main.9aa1b322.chunk.js",
-    "main.js.map": "/static/js/main.9aa1b322.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.a7c8aab0.chunk.css": "/static/css/2.a7c8aab0.chunk.css",
-    "static/js/2.7aa26b11.chunk.js": "/static/js/2.7aa26b11.chunk.js",
-    "static/js/2.7aa26b11.chunk.js.map": "/static/js/2.7aa26b11.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.302883524c6e4b316c07ae81150a802e.js": "/precache-manifest.302883524c6e4b316c07ae81150a802e.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.a7c8aab0.chunk.css.map": "/static/css/2.a7c8aab0.chunk.css.map",
-    "static/css/main.de7223b8.chunk.css.map": "/static/css/main.de7223b8.chunk.css.map"
+    "main.css": "/bookingApp/static/css/main.de7223b8.chunk.css",
+    "main.js": "/bookingApp/static/js/main.226c9762.chunk.js",
+    "main.js.map": "/bookingApp/static/js/main.226c9762.chunk.js.map",
+    "runtime~main.js": "/bookingApp/static/js/runtime~main.5b25d613.js",
+    "runtime~main.js.map": "/bookingApp/static/js/runtime~main.5b25d613.js.map",
+    "static/css/2.a7c8aab0.chunk.css": "/bookingApp/static/css/2.a7c8aab0.chunk.css",
+    "static/js/2.7aa26b11.chunk.js": "/bookingApp/static/js/2.7aa26b11.chunk.js",
+    "static/js/2.7aa26b11.chunk.js.map": "/bookingApp/static/js/2.7aa26b11.chunk.js.map",
+    "index.html": "/bookingApp/index.html",
+    "precache-manifest.4a36dd24aff8cb0d6adff78d706af884.js": "/bookingApp/precache-manifest.4a36dd24aff8cb0d6adff78d706af884.js",
+    "service-worker.js": "/bookingApp/service-worker.js",
+    "static/css/2.a7c8aab0.chunk.css.map": "/bookingApp/static/css/2.a7c8aab0.chunk.css.map",
+    "static/css/main.de7223b8.chunk.css.map": "/bookingApp/static/css/main.de7223b8.chunk.css.map"
   }
 }
