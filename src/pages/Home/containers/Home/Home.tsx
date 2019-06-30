@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import Container from '@material-ui/core/Container';
 
-import SearchInput from '../SearchInput';
+import SearchInput from 'pages/Home/components/SearchInput';
+import Hotels from 'pages/Home/components/Hotels';
 import { ConnectedProps } from '.';
-import Hotels from '../Hotels';
 import { styles } from './styles';
 
 const Home: React.FC<ConnectedProps> = (props) => {

@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-d
 
 import store from 'core/store';
 import Routes from 'routes';
-import Home from 'pages/Home/components/Home';
+import Home from 'pages/Home/containers/Home';
 import Hotel from 'pages/Hotel/containers/Hotel';
 
 const Root = () => (

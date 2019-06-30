@@ -2,12 +2,12 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
 import Home from './Home';
-import { IRootReducer } from 'interfaces/state/store';
+import { IStore } from 'interfaces/state/store';
 import { getHotels } from 'pages/Home/state/operations/home';
 import { setSearchValue } from 'pages/Home/state/actions/home';
 import { getFilteringHotels } from 'pages/Home/state/selectors/get-filtering-hotels';
 
-const mapStateToProps = (state: IRootReducer) => ({
+const mapStateToProps = (state: IStore) => ({
   hotels: getFilteringHotels(state)
 });
 

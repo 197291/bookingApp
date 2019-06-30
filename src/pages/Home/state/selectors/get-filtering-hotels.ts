@@ -1,9 +1,10 @@
 import { createSelector } from 'reselect';
-import { IRootReducer } from 'interfaces/state/store';
+
+import { IStore } from 'interfaces/state/store';
 import { randomHotels } from 'pages/Home/helpers/random-hotels';
 
-const getHotels = (state: IRootReducer) => state.home.hotels;
-const getSearchValue = (state: IRootReducer) => state.home.search;
+const getHotels = (state: IStore) => state.home.hotels;
+const getSearchValue = (state: IStore) => state.home.search;
 
 export const getFilteringHotels = createSelector(
   getHotels,

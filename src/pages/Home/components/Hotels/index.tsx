@@ -1,5 +1,6 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
+
 import { IHotel } from 'interfaces/state/hotels';
 import HotelRow from '../HotelRow';
 

@@ -3,11 +3,11 @@ import { bindActionCreators } from 'redux';
 import { withRouter, RouteComponentProps } from 'react-router-dom';
 
 import Hotel from './Hotel';
-import { IRootReducer } from 'interfaces/state/store';
+import { IStore } from 'interfaces/state/store';
 import { getHotelById } from 'pages/Hotel/state/selectors/get-hotel-by-id';
 import { getHotels } from 'pages/Home/state/operations/home';
 
-const mapStateToProps = (state: IRootReducer, props: RouteComponentProps<{ id: string }>) => ({
+const mapStateToProps = (state: IStore, props: RouteComponentProps<{ id: string }>) => ({
   hotel: getHotelById(state, props)
 });
 

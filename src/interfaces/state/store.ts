@@ -1,5 +1,5 @@
 import { IRHome } from './reducers';
 
-export interface IRootReducer {
+export interface IStore {
   home: IRHome;
 }

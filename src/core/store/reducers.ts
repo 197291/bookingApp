@@ -1,8 +1,9 @@
 import { combineReducers } from 'redux';
-import { IRootReducer } from 'interfaces/state/store';
+
+import { IStore } from 'interfaces/state/store';
 import { home } from 'pages/Home/state/reducers/home';
 
-export const rootReducer = combineReducers<IRootReducer>({
+export const rootReducer = combineReducers<IStore>({
   home
 });
 

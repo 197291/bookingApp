@@ -2,8 +2,8 @@ import React from 'react';
 import { Container } from '@material-ui/core';
 import CircularProgress from '@material-ui/core/CircularProgress';
 
-import { ConnectedProps } from '.';
 import HotelPage from 'pages/Hotel/components/Hotel';
+import { ConnectedProps } from '.';
 import { styles } from './styles';
 
 const Hotel: React.FC<ConnectedProps> = (props) => {

@@ -3,10 +3,10 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import { TextField } from '@material-ui/core';
 
-import { styles } from './styles';
 import DateRangePicker, { IDateRangePicker } from 'pages/Hotel/components/DateRangePicker';
-import { IFormBooking } from 'interfaces/state/form';
 import Modal from 'common/components/Modal';
+import { IFormBooking } from 'interfaces/state/form';
+import { styles } from './styles';
 
 interface Props {
   handleSubmit(data: IFormBooking);
