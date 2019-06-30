@@ -19,7 +19,7 @@ const Hotel: React.FC<ConnectedProps> = (props) => {
     );
   }
   return (
-    <div className="Hotel">
+    <div style={{ background: 'lightgrey' }} className="Hotel">
       <Container>
         <HotelPage hotel={props.hotel} />
       </Container>

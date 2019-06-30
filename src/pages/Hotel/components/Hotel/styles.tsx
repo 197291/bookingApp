@@ -4,7 +4,7 @@ export const styles = makeStyles({
     width: '100%',
     maxWidth: 960,
     margin: 'auto',
-    padding: '20px 0'
+    padding: '30px 0'
   },
   wrapTitleHotel: {
     display: 'flex'

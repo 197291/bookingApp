@@ -49,6 +49,7 @@ const FormBooking: React.FC<Props> = (props) => {
         helperText="Required*"
         margin="normal"
         variant="outlined"
+        className={classes.input}
         value={firstname}
         onChange={(e) => setFirstName(e.target.value.trim())}
       />
@@ -57,6 +58,7 @@ const FormBooking: React.FC<Props> = (props) => {
         helperText="Required*"
         margin="normal"
         variant="outlined"
+        className={classes.input}
         value={lastname}
         onChange={(e) => setLastName(e.target.value.trim())}
       />
@@ -65,6 +67,7 @@ const FormBooking: React.FC<Props> = (props) => {
         value={guests}
         onChange={(e) => setNumberGuests(e.target.value)}
         type="number"
+        className={classes.input}
         onBlur={(e) => setNumberGuests(validNumber(e.target.value.trim()))}
         InputLabelProps={{
           shrink: true
@@ -72,7 +75,12 @@ const FormBooking: React.FC<Props> = (props) => {
         margin="normal"
         variant="outlined"
       />
-      <Button classes={{ root: classes.btn }} color="primary" onClick={handleSubmit}>
+      <Button
+        classes={{ root: classes.btn }}
+        color="primary"
+        variant="contained"
+        onClick={handleSubmit}
+      >
         Submit
       </Button>
       <Modal handleClose={handleClose} isOpen={isOpen} />

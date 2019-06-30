@@ -10,6 +10,10 @@ export const styles = makeStyles({
     alignItems: 'center'
   },
   btn: {
-    width: 120
+    width: 120,
+    margin: '30px auto'
+  },
+  input: {
+    width: '100%'
   }
 });

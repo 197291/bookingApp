@@ -5,7 +5,6 @@ export const styles = makeStyles({
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    height: '100vh',
-    backgroundColor: 'lightgrey'
+    height: '100vh'
   }
 });
