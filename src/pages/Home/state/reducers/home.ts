@@ -1,4 +1,4 @@
-import { IRHome } from 'interfaces/state/home';
+import { IRHome } from 'interfaces/state/reducers';
 import { GET_HOTELS_SUCCESS, GET_HOTELS_FAIL, SET_SEARCH_VALUE } from '../constants';
 
 const initialState: IRHome = {

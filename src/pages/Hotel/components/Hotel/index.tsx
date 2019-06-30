@@ -5,16 +5,24 @@ import Paper from '@material-ui/core/Paper';
 
 import { IHotel } from 'interfaces/state/hotels';
 import { styles } from './styles';
-import DateRangePicker from '../DateRangePicker';
+
 import Slider from '../Slider';
 import Stars from 'common/components/Stars';
+import FormBooking from 'common/components/FormBooking';
+import { withRouter, RouteComponentProps } from 'react-router';
 
-interface Props {
+interface Props extends RouteComponentProps {
   hotel: IHotel;
 }
+
 const Hotel: React.FC<Props> = (props) => {
   const classes = styles(props);
   const { hotel } = props;
+  const handleSubmit = (data) => {
+    console.log('form data', data);
+    props.history.push('/');
+  };
+
   return (
     <div className={'Hotel ' + classes.root}>
       <Container>
@@ -26,11 +34,11 @@ const Hotel: React.FC<Props> = (props) => {
             </Typography>
           </div>
           <Slider showIndicators={false} infiniteLoop={true} />
-          <DateRangePicker />
+          <FormBooking handleSubmit={handleSubmit} />
         </Paper>
       </Container>
     </div>
   );
 };
 
-export default Hotel;
+export default withRouter(Hotel);

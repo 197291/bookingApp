@@ -1,4 +1,4 @@
-import { IRHome } from './home';
+import { IRHome } from './reducers';
 
 export interface IRootReducer {
   home: IRHome;
