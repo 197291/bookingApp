@@ -17,9 +17,11 @@ const Stars: React.FC<Props> = (props) => {
 
   return (
     <div className={classes.root}>
-      {!props.stars
-        ? 'No stars, but looks good!'
-        : arr.map((s, i) => <FontAwesomeIcon key={`star-${i}`} icon={s ? faStar : faStarR} />)}
+      {!props.stars ? (
+        <p style={{ color: '#07c' }}>No stars, but looks good!</p>
+      ) : (
+        arr.map((s, i) => <FontAwesomeIcon key={`star-${i}`} icon={s ? faStar : faStarR} />)
+      )}
     </div>
   );
 };

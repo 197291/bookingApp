@@ -1,7 +1,9 @@
 import React from 'react';
 import ListItem from '@material-ui/core/ListItem';
 import { Link } from 'react-router-dom';
+import { Typography } from '@material-ui/core';
 
+import Stars from 'common/components/Stars';
 import { IHotel } from 'interfaces/state/hotels';
 import { styles as st } from './style';
 
@@ -23,7 +25,12 @@ const HotelRow: React.FC<Props> = (props) => {
           />
         </div>
         <div className={styles.content}>
-          <h3 className={styles.title}>{hotel.name || 'Great Hotel'}</h3>
+          <div className={styles.wrapTitleHotel}>
+            <Typography title={hotel.name} classes={{ h2: styles.title }} variant="h2">
+              {hotel.name}
+            </Typography>
+            <Stars stars={hotel.stars} />
+          </div>
           <div className={styles.city}>{hotel.city}</div>
           <div>{hotel.description}</div>
         </div>

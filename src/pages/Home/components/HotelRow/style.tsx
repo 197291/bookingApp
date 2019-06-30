@@ -3,7 +3,14 @@ export const styles = makeStyles({
   title: {
     color: '#07c',
     fontWeight: 'bold',
-    fontSize: 20
+    fontSize: 18,
+    maxWidth: '75%',
+    marginRight: '5px',
+    width: '100%',
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+    whiteSpace: 'nowrap',
+    marginBottom: 10
   },
   listItem: {
     padding: 16,
@@ -12,12 +19,15 @@ export const styles = makeStyles({
     borderRadius: 3,
     alignItems: 'flex-start',
     cursor: 'pointer',
-    maxWidth: 580,
+    maxWidth: 680,
     '&:hover': {
       backgroundColor: '#e9f0fa'
     }
   },
-  wrapPhoto: {},
+  wrapPhoto: {
+    width: '200px',
+    height: '200px'
+  },
   hotelPhoto: {
     width: '200px',
     height: '200px'
@@ -26,7 +36,8 @@ export const styles = makeStyles({
     display: 'flex',
     flexDirection: 'column',
     padding: '0 0 0 16px',
-    alignItems: 'flex-start'
+    alignItems: 'flex-start',
+    maxWidth: 'calc(100% - 200px)'
   },
   description: {
     fontSize: 12,
@@ -41,5 +52,11 @@ export const styles = makeStyles({
     fontWeight: 'normal',
     borderBottom: '1px solid',
     margin: '0 0 8px 0'
+  },
+  wrapTitleHotel: {
+    width: '100%',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'space-between'
   }
 });

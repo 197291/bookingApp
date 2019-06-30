@@ -9,7 +9,8 @@ export const styles = makeStyles({
     width: '100%',
     margin: 'auto',
     alignItems: 'center',
-    position: 'relative'
+    position: 'relative',
+    padding: '0 10px'
   },
   btn: {
     width: 120,
