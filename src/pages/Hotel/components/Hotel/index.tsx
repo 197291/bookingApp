@@ -20,6 +20,8 @@ const Hotel: React.FC<Props> = (props) => {
   const { hotel } = props;
   const handleSubmit = (data) => {
     console.log('form data', data);
+  };
+  const handleSuccessSubmit = () => {
     props.history.push('/');
   };
 
@@ -34,7 +36,7 @@ const Hotel: React.FC<Props> = (props) => {
             </Typography>
           </div>
           <Slider showIndicators={false} infiniteLoop={true} />
-          <FormBooking handleSubmit={handleSubmit} />
+          <FormBooking handleSubmit={handleSubmit} handleSuccessSubmit={handleSuccessSubmit} />
         </Paper>
       </Container>
     </div>

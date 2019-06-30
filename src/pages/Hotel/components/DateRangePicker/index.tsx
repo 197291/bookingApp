@@ -3,7 +3,12 @@ import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 
 interface Props {
-  setDate?: (date: { startDate: Date; endDate: Date }) => void;
+  setDate?: (date: IDateRangePicker) => void;
+}
+
+export interface IDateRangePicker {
+  startDate: Date;
+  endDate: Date;
 }
 
 Date.prototype.addDays = function(days: number) {

@@ -1,7 +1,7 @@
 export interface IFormBooking {
-  startDate: string;
-  endDate: string;
-  guests: number;
+  startDate: Date;
+  endDate: Date;
+  guests: string;
   firstname: string;
   lastname: string;
 }
